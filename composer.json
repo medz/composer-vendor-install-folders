@@ -23,7 +23,7 @@
     },
     "support": {
         "forum": "https://github.com/medz/composer-vendor-install-folders/issues",
-        "source": "hhttps://github.com/medz/composer-vendor-install-folders.git"
+        "source": "https://github.com/medz/composer-vendor-install-folders.git"
     },
     "extra": {
         "branch-alias": {
