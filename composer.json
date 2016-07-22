@@ -1,0 +1,34 @@
+{
+    "name": "medz/thinksns-4",
+    "type": "composer-plugin",
+    "description": "Allows components custom folders installed.",
+    "keywords": ["medz", "composer"],
+    "homepage": "http://medz.cn",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Seven Du",
+            "email": "lovevipdsw@outlook.com",
+            "homepage": "http://medz.cn",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.12",
+        "composer-plugin-api": "^1.0",
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "support": {
+        "forum": "https://github.com/medz/composer-vendor-install-folders/issues",
+        "source": "hhttps://github.com/medz/composer-vendor-install-folders.git"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "class": "Medz\\Component\\Installer\\CustomInstallPaths\\InstallerPlugin"
+    }
+}
