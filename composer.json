@@ -1,5 +1,5 @@
 {
-    "name": "medz/thinksns-4",
+    "name": "medz/composer-vendor-install-folders",
     "type": "composer-plugin",
     "description": "Allows components custom folders installed.",
     "keywords": ["medz", "composer"],
