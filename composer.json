@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.3.12",
-        "composer-plugin-api": "^1.0",
+        "composer-plugin-api": "^1.0"
     },
     "config": {
         "preferred-install": "dist"
