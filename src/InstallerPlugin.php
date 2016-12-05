@@ -13,7 +13,7 @@ use Medz\Component\Installer\CustomInstallPaths\Installer;
  * @package default
  * @author Seven Du <lovevipdsw@outlook.com>
  **/
-class InstallerPlugin extends PluginInterface
+class InstallerPlugin implements PluginInterface
 {
     /**
      * 插件入口方法
@@ -27,4 +27,4 @@ class InstallerPlugin extends PluginInterface
             ->addInstaller(new Installer($io, $composer))
         ;
     }
-} // END class InstallerPlugin extends PluginInterface
+} // END class InstallerPlugin implements PluginInterface
