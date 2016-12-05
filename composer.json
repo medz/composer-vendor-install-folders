@@ -18,8 +18,10 @@
         "php": ">=5.3.12",
         "composer-plugin-api": "^1.0"
     },
-    "config": {
-        "preferred-install": "dist"
+    "autoload": {
+        "psr-4": {
+            "Medz\\Component\\Installer\\CustomInstallPaths\\": "src/"
+        }
     },
     "support": {
         "forum": "https://github.com/medz/composer-vendor-install-folders/issues",
