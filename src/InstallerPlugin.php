@@ -1,11 +1,11 @@
 <?php
 
-namespace Medz\\Component\\Installer\\CustomInstallPaths;
+namespace Medz\Component\Installer\CustomInstallPaths;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
-use Medz\\Component\\Installer\\CustomInstallPaths\Installer;
+use Medz\Component\Installer\CustomInstallPaths\Installer;
 
 /**
  * 自定义安装路径插件入口

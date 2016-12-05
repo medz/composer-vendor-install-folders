@@ -1,6 +1,6 @@
 <?php
 
-namespace Medz\\Component\\Installer\\CustomInstallPaths;
+namespace Medz\Component\Installer\CustomInstallPaths;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
